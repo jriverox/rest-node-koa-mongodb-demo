@@ -19,7 +19,7 @@ routes.map(r => {
     .use(r.routes())
     .use(r.allowedMethods())
 })
-console.log('env', env.PORT, env.MONGODB_URL)
+
 mongoose.connect(env.MONGODB_URL, { useNewUrlParser: true })
   .then(() => {
     server.listen(env.PORT, () => {
