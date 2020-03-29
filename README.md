@@ -23,9 +23,9 @@ npx eslint --init
 7. Create src folder
 8. Edit package.json and add scripts
 ```json
-	"dev": "nodemon ./src/server.js",
-  "start": "node ./src/server.js",
-  "lint": "eslint src",
+"dev": "nodemon ./src/server.js",
+"start": "node ./src/server.js",
+"lint": "eslint src",
 ```
 9. Create env.yaml in root folder with de following text
 ```yaml
@@ -49,14 +49,14 @@ add env.yaml to .gitignore (for security reasons)
 
 12. Service
   * create services folder
-  * Create person.service.js inside services folder
+  * Create [person.service.js](https://github.com/jriverox/rest-api-koa-mongodb-demo/blob/master/src/services/person.service.js) inside services folder
 
 13. Controller
   * Create controllers folder
-  * Create person.controller.js inside controllers folder
+  * Create [person.controller.js](https://github.com/jriverox/rest-api-koa-mongodb-demo/blob/master/src/controllers/person.controller.js) inside controllers folder
 
 14. Router
   * Create routes folder
-  * Create person.route.js inside routes folder
-15. Create routes.js
-16. Create server.js
+  * Create [person.route.js](https://github.com/jriverox/rest-api-koa-mongodb-demo/blob/master/src/routes/person.route.js) inside routes folder
+15. Create [routes.js](https://github.com/jriverox/rest-api-koa-mongodb-demo/blob/master/src/routes.js) inside src folder
+16. Create [server.js](https://github.com/jriverox/rest-api-koa-mongodb-demo/blob/master/src/server.js) inside src folder
