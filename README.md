@@ -30,10 +30,10 @@ npx eslint --init
 9. Create env.yaml in root folder with de following text
 ```yaml
 development:
-    PORT: 3000,
+    PORT: 3000
     MONGODB_URL: "mongodb+srv://your-user-here:your-password-here@your-cluster-url/your-database-here?retryWrites=true&w=majority"
 production:
-    PORT: 3000,
+    PORT: 3000
     MONGODB_URL: "mongodb+srv://your-user-here:your-password-here@your-cluster-url/your-database-here?retryWrites=true&w=majority"
 ```
 Note: replace the url template with your values (your-user-here, your-password-here, your-cluster-url, your-database-here)
